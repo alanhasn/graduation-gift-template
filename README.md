@@ -51,20 +51,20 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Everything you need to personalize lives in **[`src/lib/content.ts`](src/lib/content.ts)**:
 
-| Field | What it controls |
-|---|---|
-| `graduates` | Names, degree, university, graduation year |
-| `signature` | Who the gift is from, shown at the very end |
-| `bootSequence` | Lines of the opening terminal boot animation |
-| `hero` | Big headline + subtitle |
-| `timeline` | Each milestone card in the scrolling timeline |
-| `galleryImages` | Photos + captions (see below) |
-| `terminalCommands` | What each terminal command prints |
-| `achievement` | The unlocked-achievement card copy |
-| `roadmap` | Steps in the "what's next" roadmap |
-| `letter` | The heartfelt letter's paragraphs |
-| `ending` | Final closing line |
-| `keyboardShortcuts` | Text shown in the `?` shortcuts overlay |
+| Field                 | What it controls                              |
+| --------------------- | --------------------------------------------- |
+| `graduates`         | Names, degree, university, graduation year    |
+| `signature`         | Who the gift is from, shown at the very end   |
+| `bootSequence`      | Lines of the opening terminal boot animation  |
+| `hero`              | Big headline + subtitle                       |
+| `timeline`          | Each milestone card in the scrolling timeline |
+| `galleryImages`     | Photos + captions (see below)                 |
+| `terminalCommands`  | What each terminal command prints             |
+| `achievement`       | The unlocked-achievement card copy            |
+| `roadmap`           | Steps in the "what's next" roadmap            |
+| `letter`            | The heartfelt letter's paragraphs             |
+| `ending`            | Final closing line                            |
+| `keyboardShortcuts` | Text shown in the`?` shortcuts overlay      |
 
 ### Adding real photos
 
@@ -78,7 +78,6 @@ Everything you need to personalize lives in **[`src/lib/content.ts`](src/lib/con
      { src: "/gallery/your-photo-2.jpg", caption: "..." },
    ];
    ```
-
 3. Delete the placeholder `photo-1.svg` / `photo-2.svg` once replaced.
 
 ## 📦 Deploy it (free)
