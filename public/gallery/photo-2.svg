@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1330"/>
+      <stop offset="55%" stop-color="#221128"/>
+      <stop offset="100%" stop-color="#0d0f1a"/>
+    </linearGradient>
+    <linearGradient id="ring2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg2)"/>
+  <rect x="0.5" y="0.5" width="799" height="999" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <circle cx="400" cy="430" r="90" fill="none" stroke="url(#ring2)" stroke-width="3" stroke-opacity="0.6"/>
+  <path d="M400 390 a40 40 0 1 0 0.01 0 M330 500 q70 -60 140 0" fill="none" stroke="url(#ring2)" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85"/>
+  <text x="400" y="600" text-anchor="middle" font-family="monospace" font-size="22" fill="#fbbf24" letter-spacing="2">ADD PHOTO 2</text>
+  <text x="400" y="634" text-anchor="middle" font-family="monospace" font-size="14" fill="#9aa3b8" letter-spacing="1">public/gallery/photo-2.svg</text>
+</svg>
